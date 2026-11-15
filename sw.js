@@ -1,6 +1,6 @@
 /* Hors ligne : garde une copie du carnet dans le téléphone.
    Changer VERSION à chaque publication pour forcer la mise à jour. */
-const VERSION = "bruges-v1";
+const VERSION = "bruges-v2";
 const FICHIERS = [
   "./", "index.html", "donnees.js", "icone.svg", "manifest.webmanifest",
   "polices/grenze-gotisch-latin-600-normal.woff2",

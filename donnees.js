@@ -15,7 +15,7 @@
    ===================================================================== */
 
 window.BRUGES = {
-  maj: "13 novembre 2026",
+  maj: "15 novembre 2026",
 
   jours: [
     {
@@ -92,65 +92,59 @@ window.BRUGES = {
     },
     {
       id: "dimanche", date: "2026-11-15", nom: "Dimanche",
-      titre: "Déjeuner au bord de l'eau, puis Michel-Ange",
-      intro: "Nuageux, averses possibles : une courte balade au nord, un vrai déjeuner, puis le sud de la ville, où tout est couvert et à deux pas.",
+      titre: "Le bonnet, les cygnes et une frite",
+      intro: "Tout à pied depuis le parking du nord : on récupère le bonnet à Vlissinghe, on descend vers le béguinage, une frite, puis retour à la voiture vers 14 h 30 – 15 h.",
       meteo: "Nuageux avec des averses possibles, 11 °C, à peine une heure de soleil.",
       soleil: { lever: "08:04", coucher: "16:58", nuit: "17:35" },
       parcours: {
         texte: "Le parcours de dimanche sur Maps",
-        etapes: ["Du Phare, Sasplein 2, 8000 Brugge", "Sint-Janshuismolen, Kruisvest, 8000 Brugge", "Café Vlissinghe, Blekersstraat 2, 8000 Brugge", "Onze-Lieve-Vrouwekerk, Mariastraat, 8000 Brugge", "Brouwerij De Halve Maan, Walplein 26, 8000 Brugge", "Begijnhof, 8000 Brugge"],
-        arrivee: "Minnewater, 8000 Brugge"
+        etapes: ["Café Vlissinghe, Blekersstraat 2, 8000 Brugge", "Burg, 8000 Brugge", "Rozenhoedkaai, 8000 Brugge", "Begijnhof, 8000 Brugge", "Minnewater, 8000 Brugge", "Katelijnestraat 3, 8000 Brugge", "Onze-Lieve-Vrouwekerk, Mariastraat, 8000 Brugge"],
+        arrivee: "Lodewijk Coiseaukaai, 8000 Brugge"
       },
       etapes: [
         {
-          h: "", quand: "Matin", vers: "07:00", titre: "Matinée libre",
-          texte: "Petit-déjeuner inclus, départ de la chambre à 11 h, bagages dans le coffre. Le dimanche de 11 h à midi, le carillonneur joue sur les cloches du Belfort."
-        },
-        {
-          h: "12:00", titre: "Déjeuner au Du Phare",
-          texte: "Un pub-bistro installé dans une ancienne porte de la ville, sur une petite île à la pointe nord. Cuisine flamande teintée d'ailleurs, prix doux, ouvert dès 11 h 30.",
-          maps: "Du Phare, Sasplein 2, 8000 Brugge"
-        },
-        {
-          h: "13:30", titre: "Les moulins et le quartier Sainte-Anne",
-          texte: "Longez les remparts du Kruisvest et leurs quatre moulins, puis entrez dans Sainte-Anne, le quartier résidentiel le plus tranquille. S'il souffle trop, filez directement au café.",
-          maps: "Sint-Janshuismolen, Kruisvest, 8000 Brugge",
-          histoire: "Des moulins tournent sur ces remparts depuis la fin du XIIIe siècle. Le Sint-Janshuismolen, construit en 1770, est toujours à sa place d'origine : c'est le seul des quatre qui moud encore du grain. Il ne se visite que d'avril à septembre, mais la butte est libre toute l'année."
-        },
-        {
-          h: "14:15", titre: "Café Vlissinghe, près du poêle",
-          texte: "Cité dès 1515, c'est le plus vieux café de Bruges. En hiver, on s'installe près du poêle. Ouvert le dimanche de 11 h à 19 h.",
+          h: "11:15", titre: "Vlissinghe : récupérer le bonnet",
+          texte: "À 10 minutes à pied du parking. Ouvert le dimanche de 11 h à 19 h. Un café près du poêle si vous avez le temps, sinon on file.",
           maps: "Café Vlissinghe, Blekersstraat 2, 8000 Brugge",
           histoire: "Son décor « d'époque » doit beaucoup aux brasseurs De Meulemeester, propriétaires au XIXe et au début du XXe siècle, qui n'ont rien épargné pour l'aménager à l'ancienne. Tout près, la Jeruzalemkerk a joué la basilique du Saint-Sang dans « Bons baisers de Bruges » : l'équipe n'avait pas obtenu l'autorisation de tourner dans la vraie."
         },
         {
-          h: "15:15", titre: "La Madone de Michel-Ange",
-          texte: "À l'église Notre-Dame. Dimanche de 13 h 30 à 17 h, 8 € pour la partie musée ; la nef est gratuite.",
+          h: "11:45", titre: "Descente vers le sud par les canaux",
+          texte: "Gratuit : Jan van Eyckplein, Burg, puis le Rozenhoedkaai de jour. Environ 25 minutes sans traîner.",
+          maps: "Rozenhoedkaai, 8000 Brugge"
+        },
+        {
+          h: "12:15", titre: "Béguinage et Minnewater",
+          texte: "Gratuits et silencieux. Comptez 45 minutes : la cour du béguinage, puis le tour du lac d'amour.",
+          maps: "Minnewater, 8000 Brugge",
+          histoire: "Les cygnes sont là par obligation, dit la légende. En 1488, les Brugeois ont exécuté Pieter Lanchals, conseiller de Maximilien d'Autriche : son nom sonnait comme « lange hals », long cou, et ses armes portaient un cygne. Maximilien aurait condamné la ville à entretenir des cygnes sur ses canaux pour l'éternité. Les historiens en doutent : il y avait des cygnes à Bruges bien avant lui."
+        },
+        {
+          h: "13:00", titre: "Une frite",
+          texte: "Au FritBar, Katelijnestraat 3, à deux pas du béguinage. Plan B : Chez Vincent, à côté de la cathédrale Saint-Sauveur (horaires du dimanche à vérifier), ou le frietkot du Markt sur le chemin du retour.",
+          maps: "Katelijnestraat 3, 8000 Brugge"
+        },
+        {
+          h: "13:45", titre: "La Madone de Michel-Ange (payant)",
+          texte: "À l'église Notre-Dame, à 3 minutes. Dimanche de 13 h 30 à 17 h, 8 € pour la partie musée, 20 minutes suffisent. Sinon, voir les options gratuites plus bas.",
           maps: "Onze-Lieve-Vrouwekerk, Mariastraat, 8000 Brugge",
           histoire: "Après Florence, la suite logique : c'est la seule statue de Michel-Ange partie d'Italie de son vivant. Emportée à Paris sous la Révolution, rendue après Waterloo, volée par les nazis en 1944 puis retrouvée dans une mine de sel en Autriche : c'est l'histoire du film « Monuments Men ». Levez aussi les yeux vers la loge des Gruuthuse, reliée à leur palais : la famille suivait la messe sans se mêler à la foule. Leur fortune venait du gruut, le mélange d'herbes qui parfumait la bière avant le houblon, puis d'une taxe sur presque toute la bière de la ville."
         },
         {
-          h: "16:00", titre: "Brasserie De Halve Maan",
-          texte: "À deux minutes de Notre-Dame. Visite de 45 minutes en français avec une bière, 16 € : réservez un créneau en français.",
-          maps: "Brouwerij De Halve Maan, Walplein 26, 8000 Brugge",
-          liens: [{ texte: "Réserver la visite", url: "https://www.halvemaan.be/en/visit/brewery" }],
-          histoire: "Selon la légende, la Brugse Zot, « le fou de Bruges », vient encore de Maximilien d'Autriche. Les Brugeois lui demandaient de financer un nouvel asile ; il aurait répondu qu'il n'avait vu que des fous de toute la journée. Aujourd'hui, la bière part vers l'usine d'embouteillage par un pipeline de 3,3 km sous la ville."
-        },
-        {
-          h: "16:45", titre: "Béguinage et Minnewater",
-          texte: "Gratuits et silencieux, à faire avant la nuit. Ensuite, comptez 30 à 35 minutes à pied jusqu'au parking du nord.",
-          maps: "Minnewater, 8000 Brugge",
-          histoire: "Les cygnes sont là par obligation, dit la légende. En 1488, les Brugeois ont exécuté Pieter Lanchals, conseiller de Maximilien d'Autriche : son nom sonnait comme « lange hals », long cou, et ses armes portaient un cygne. Maximilien aurait condamné la ville à entretenir des cygnes sur ses canaux pour l'éternité. Les historiens en doutent : il y avait des cygnes à Bruges bien avant lui."
+          h: "14:30", titre: "Retour à la voiture",
+          texte: "30 à 35 minutes à pied jusqu'au parking du nord, par le Markt et la Langestraat ou les canaux. Départ vers 15 h.",
+          maps: "Lodewijk Coiseaukaai, 8000 Brugge"
         }
-      ],
+  ],
       apres: {
-        titre: "S'il pleut fort",
-        texte: "Restez dans le sud : musées, brasserie et cafés y sont à cinq minutes les uns des autres.",
+        titre: "Options gratuites",
+        texte: "À la place de la Madone, ou en plus, tout est sur le chemin entre le béguinage et le Markt.",
         liste: [
-          { titre: "Groeningemuseum", texte: "Dijver 12. Van Eyck, Memling, et le Jugement dernier de Jérôme Bosch, celui qui joue un rôle clé dans « Bons baisers de Bruges ». En général de 9 h 30 à 17 h ; vérifiez les horaires d'hiver.", maps: "Groeningemuseum, Dijver 12, 8000 Brugge" },
-          { titre: "Hôpital Saint-Jean", texte: "Mariastraat 38. L'un des plus vieux bâtiments hospitaliers d'Europe (XIIe siècle), avec des Memling.", maps: "Sint-Janshospitaal, Mariastraat 38, 8000 Brugge" },
-          { titre: "Musea Brugge Card", texte: "33 € par personne pour 72 h : rentable seulement à partir de trois sites payants." },
-          { titre: "Les cafés", texte: "De Garre et Vlissinghe tiennent très bien un après-midi pluvieux." }
+          { titre: "La nef de Notre-Dame", texte: "L'église elle-même est gratuite ; seule la partie avec la Madone est payante.", maps: "Onze-Lieve-Vrouwekerk, Mariastraat, 8000 Brugge" },
+          { titre: "Cathédrale Saint-Sauveur", texte: "Gratuite, grande et calme, à côté de Chez Vincent.", maps: "Sint-Salvatorskathedraal, 8000 Brugge" },
+          { titre: "Jardin Arentshof et pont Saint-Boniface", texte: "Le petit pont le plus photogénique de la ville, avec le jardin juste à côté.", maps: "Bonifaciusbrug, 8000 Brugge" },
+          { titre: "Cour de l'hôpital Saint-Jean", texte: "Les cours et le quai de l'ancien hôpital, en face de Notre-Dame, sont libres d'accès.", maps: "Sint-Janshospitaal, Mariastraat 38, 8000 Brugge" },
+          { titre: "S'il pleut fort", texte: "Une bière au bar de la Halve Maan, Walplein 26, à 2 minutes du béguinage.", maps: "Brouwerij De Halve Maan, Walplein 26, 8000 Brugge" }
         ]
       }
     }
